@@ -10,8 +10,8 @@ import pyautogui
 
 print("This is a Python Autoclicker")
 print("")
-key = input("which key du you want to use: ")
-mouse = input("left l or right r: ")
+key = input("which key: ")
+mouse = input("L.eft or R.ight: ").lower()
 delay = 0.0001 #float(input("The delay between clicks in s (e.g. 0.1): "))
 
 def left_Mouseclick():    
